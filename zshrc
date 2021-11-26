@@ -67,3 +67,8 @@ export BROWSER='"/mnt/c/Program Files/Mozilla Firefox/firefox.exe"'
 sudo /etc/init.d/postgresql start
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export DISPLAY=172.17.192.1:0
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+sudo /etc/init.d/postgresql start
