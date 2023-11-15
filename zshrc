@@ -73,3 +73,4 @@ export DISPLAY=172.17.192.1:0
 export PATH="$PATH:$HOME/.rvm/bin"
 sudo /etc/init.d/postgresql start
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
